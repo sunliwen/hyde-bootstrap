@@ -5,7 +5,7 @@
 
 
 {% block body %}
-<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+<div class="navbar navbar-fixed-top" role="navigation">
   {% block topbar %}
   <div class="container">
     <div class="navbar-header">
@@ -16,7 +16,7 @@
       </button>
       <a class="navbar-brand" href="{{ home_url }}">{{ site_title }}</a>
     </div><!-- /.navbar-header -->
-    <div class="collapse navbar-collapse">
+    <div class="collapse navbar-collapse navbar-right">
       <ul class="nav navbar-nav">
         {% from "macros.j2" import render_main_menu with context %}
         {{ render_main_menu() }}
