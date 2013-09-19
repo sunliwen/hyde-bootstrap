@@ -1,24 +1,5 @@
-# hyde-bootstrap
+# diffeo.com
 
-**Updated for the newest bootstrap version**
-
-A layout for [Hyde][hyde] using the [Bootstrap][bootstrap] framework.
-Current stable version: v0.3
-
-## Demo
-This is based loosely on [this Bootstrap example layout][bootstrap_template]. The fluid columns are
-disabled though
-
-
-## Setup
-The simplest way to use this layout is to:
-
-### Using a Zip File
-  1. Download the [latest zip archive](https://github.com/anandtrex/hyde-bootstrap/zipball/master)
-  2. Unzip it
-  3. Place the unzipped files wherever you want your new Hyde site to be
-  4. From the terminal run `hyde gen` to generate the Bootstrap-based site in it's default state
-  5. Poke around on the site by opening mynewsite/deploy/index.html in your browser
 
 ### Using Git
 
